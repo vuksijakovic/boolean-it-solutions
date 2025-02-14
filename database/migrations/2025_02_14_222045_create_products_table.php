@@ -24,9 +24,9 @@ return new class extends Migration
 
             $table->timestamps();
 
-            $table->foreign('category_id')->references('id')->on('categories');
-            $table->foreign('department_id')->references('id')->on('departments');
-            $table->foreign('manufacturer_id')->references('id')->on('manufacturers');
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
+            $table->foreign('department_id')->references('id')->on('departments')->onDelete('cascade');
+            $table->foreign('manufacturer_id')->references('id')->on('manufacturers')->onDelete('cascade');
         });
     }
 
