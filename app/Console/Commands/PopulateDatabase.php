@@ -50,7 +50,6 @@ class PopulateDatabase extends Command
             $category = Category::firstOrCreate(['name' => $record['category_name']]);
             $department = Department::firstOrCreate(['name' => $record['deparment_name']]);
             $manufacturer = Manufacturer::firstOrCreate(['name' => $record['manufacturer_name']]);
-
             Product::updateOrCreate(
                 ['product_number' => $record['product_number']], 
                 [
