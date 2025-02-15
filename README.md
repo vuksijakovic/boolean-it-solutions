@@ -1,3 +1,13 @@
+Kako pokrenuti projekat? 
+Za pocetak je potrebno napraviti mySql bazu u phpMyAdmin, zatim unijeti podatke u .env fajl.
+Nakon toga u terminalu je potrebno pokrenuti komandu php artisan app:populate-database "putanja_do_csv_fajla_na_vasem_racunaru.csv"
+Ova komanda ce izvrsiti sve potrebne migracije, kao i popuniti bazu. Dakle rucno je potrebno samo napraviti bazu.
+Nakon toga je samo potrebno klasicno pokretanje na php artisan serve.
+Sve rute se mogu vidjeti u api.php fajlu, iz imena ruta ce biti jasno sta koja radi.
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
