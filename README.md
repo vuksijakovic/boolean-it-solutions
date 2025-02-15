@@ -1,9 +1,10 @@
-Kako pokrenuti projekat? 
-Za pocetak je potrebno napraviti mySql bazu u phpMyAdmin, zatim unijeti podatke u .env fajl.
-Nakon toga u terminalu je potrebno pokrenuti komandu php artisan app:populate-database "putanja_do_csv_fajla_na_vasem_racunaru.csv"
-Ova komanda ce izvrsiti sve potrebne migracije, kao i popuniti bazu. Dakle rucno je potrebno samo napraviti bazu.
-Nakon toga je samo potrebno klasicno pokretanje na php artisan serve.
-Sve rute se mogu vidjeti u api.php fajlu, iz imena ruta ce biti jasno sta koja radi.
+## Kako pokrenuti projekat? 
+## Za pocetak je potrebno napraviti mySql bazu u phpMyAdmin, zatim unijeti podatke u .env fajl.
+## Klasicno setup-ovati projekat na vasem racunaru. (composer install,...)
+## Nakon toga u terminalu je potrebno pokrenuti komandu php artisan app:populate-database "putanja_do_csv_fajla_na_vasem_racunaru.csv"
+## Ova komanda ce izvrsiti sve potrebne migracije, kao i popuniti bazu. Dakle rucno je potrebno samo napraviti bazu.
+## Nakon toga je samo potrebno klasicno pokretanje na php artisan serve.
+## Sve rute se mogu vidjeti u api.php fajlu, iz imena ruta ce biti jasno sta koja radi.
 
 
 
