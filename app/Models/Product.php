@@ -15,7 +15,6 @@ class Product extends Model
 
     protected $keyType = 'string';
 
-    protected $hidden = ['category_id', 'department_id', 'manufacturer_id'];
 
     protected $fillable = [
         'product_number',
